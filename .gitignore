@@ -8,3 +8,4 @@ build/
 *.jar
 *.war
 *.ear
+/.nb-gradle/
