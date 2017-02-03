@@ -8,6 +8,6 @@ node('master') {
 
   stage ('Build cas-json-tool') {
     sh 'gradle wrapper'
-    sh './gradlew distZip'
+    sh './gradlew distZip --debug'
   }
 }
